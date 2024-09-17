@@ -61,3 +61,26 @@ int main() {
 
 
     int resultado = numero1 * numero2;
+
+Trabalho 5;
+
+Estrutura de Repetição (Laços de Repetição)
+
+Um exemplo comum é o uso de um for loop para iterar sobre uma lista e imprimir seus elementos:
+
+python
+# Exemplo de estrutura de repetição com o loop 'for'
+nomes = ["Leo", "Tina", "Lipe","Aline","Luciano","Guilherme"];
+
+for i,nome in enumerate(nomes):
+    print(i+1,nome);
+
+Neste código, o loop for percorre cada item na lista nomes e imprime o valor de nome e sua respectiva posição na lista somado se uma unidade. Esse código então tem como função criar uma lista numerada a partit de uma lista com apenas nomes.
+
+*Estrutura de Tomada de Decisão*
+
+Um exemplo simples é o uso de uma estrutura if para tomar decisões com base em uma condição:
+
+python
+# Exemplo de estrutura de tomada de decisão com 'if'
+idade = 18

@@ -84,6 +84,8 @@ Um exemplo simples é o uso de uma estrutura if para tomar decisões com base em
 python
 # Exemplo de estrutura de tomada de decisão com 'if'
 idade = 18
+
+
 Trabalho 6 
 def bubble_sort(arr):
     n = len(arr)

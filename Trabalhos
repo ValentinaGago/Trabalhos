@@ -84,3 +84,29 @@ Um exemplo simples é o uso de uma estrutura if para tomar decisões com base em
 python
 # Exemplo de estrutura de tomada de decisão com 'if'
 idade = 18
+Trabalho 6 
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# Exemplo de uso
+if _name_ == "_main_":
+    lista = [64, 34, 25, 12, 22, 11, 90]
+    print("Lista original:", lista)
+    print("Lista ordenada:", bubble_sort(lista))
+
+
+def imprimir_vogais(texto):
+    vogais = "aeiouAEIOU"
+    resultado = [letra for letra in texto if letra in vogais]
+    print("Vogais encontradas:", "".join(resultado))
+
+# Exemplo de uso
+if _name_ == "_main_":
+    texto = input("Digite uma palavra ou frase: ")
+    imprimir_vogais(texto)
+
